@@ -5,13 +5,13 @@ body{
 }
 
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1200px;
     height: 800px;
     display: flex;
     justify-content: center;
     align-items: start;
-    grid-column-gap: 3%;
+    grid-column-gap: 5%;
     flex-wrap: wrap;
 }
 
@@ -19,16 +19,19 @@ body{
     border: 2px solid white;
     width: 200px;
     height: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(3, 61, 250, 0.212);
 }
 
 .container-image{
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
     width: 200px;
     height: 150px;
 }
 
 .container-text{
-    border: 2px solid palevioletred;
+    /* border: 2px solid yellow; */
     width: 200px;
     height: 150px;
+    text-align: center;
 }
