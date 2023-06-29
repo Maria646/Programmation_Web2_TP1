@@ -33,6 +33,10 @@ const Carte = (props) => {
       <Text type={props.typeTitle}>{props.childrenTitle}</Text>
       <Text type={props.typePara}>{props.childrenPara}</Text>
     </div>
+
+       {/* Jai essayer cette solution ci-dessous en mettant la fonctionnalité du useState dans les componants importer...
+       mais cela ne fonctionne pas ! */}
+
     {/* <ContainerImage  containerImage= {props.containerImage} onMouseEnter ={onEnter} onMouseLeave={onLeave}>
      <Image src={props.src} alt={props.alt}></Image>
     </ContainerImage>

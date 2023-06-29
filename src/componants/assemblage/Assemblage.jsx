@@ -2,11 +2,6 @@ import React from 'react'
 import "./assemblage.css"
 import Container from "../container/Container"
 import Carte from "../card/Carte"
-import ContainerImage from "../containerImage/ContainerImage"
-import ContainerText from "../containerText/ContainerText"
-import Image from '../image/Image'
-import Text from '../text/Text'
-import { useState } from 'react'
 
 const Assemblage = (props) => {
   return (
